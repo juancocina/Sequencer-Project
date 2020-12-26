@@ -1,1 +1,31 @@
+General Explanation of the app
+- I have to make a step sequencer similar to that of Xfer's Cthulhu. I mainly want to use Cthulhus arpeggiator function without having to buy it. So, I thought this would be a good project to get myself started with JUCE and its library. Not to mention something that I can put in my portfolio.
+
+Basically, I'm making an arpeggiator where I choose the notes/pattern.
+
+REQUIREMENTS ---------------------------------------
+
+8 * 16 grid of clickable sections that determine what note is playing.
+
+For example:
+        1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16
+       8
+       7
+       6
+       5
+       4
+       3
+       2
+       1
+Each Row will be connected to a NoteBox. Each NoteBox will be in charge of changing the pitch of the input to a certain note.
+If I have the loop set to 3/4 timing, the pitch will change depending on which row I have clicked for 1 2 and 3.
+
+For each NoteBox, I should be able to choose the note that I want the input signal to change to, as well as a mute, or fine pitch modulation.
+For starters, I should focus on the note change first. 
+
+There should be a nob that changes where the singal loops. 
+
+There should be a keyboard at the bottom that shows MIDI input, or that I can click to test the signal input.
+
+
 
