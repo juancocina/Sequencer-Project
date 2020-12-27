@@ -28,4 +28,9 @@ There should be a nob that changes where the singal loops.
 There should be a keyboard at the bottom that shows MIDI input, or that I can click to test the signal input.
 
 
+UPDATE 12/27/2020 ------------------------------------
+I made a little UI example in photoshop. This is gonna be a basis for designing the components and stuff. 
+Next work task should be to establish the heirarchy of components. Probably going to use Lucid Chart or something to make a use case or a diagram of some sort.
+Next study task should be to watch some more tutorials. 
+
 
